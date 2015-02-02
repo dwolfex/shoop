@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20150127100904) do
 
   create_table "carts", force: true do |t|
     t.string   "user_id"
+    t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
